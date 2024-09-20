@@ -13,5 +13,3 @@ RUN pip install tidal-dl
 WORKDIR /app
 
 ENTRYPOINT ["tidal-dl"]
-
-CMD ["--help"]
